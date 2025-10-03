@@ -5,7 +5,10 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
@@ -25,8 +28,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
-              Hi, I'm{" "}
-              <span className="gradient-text">Your Name</span>
+              Hi, I'm <span className="gradient-text">Lipo</span>
             </h1>
           </motion.div>
 
@@ -36,7 +38,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            A creative developer crafting beautiful digital experiences with modern web technologies
+            A creative developer crafting beautiful digital experiences with
+            modern web technologies
           </motion.p>
 
           <motion.div
@@ -61,7 +64,7 @@ const Hero = () => {
               className="glass border-primary/20 hover:bg-primary/10"
               asChild
             >
-              <a href="#contact">
+              <a href="/src/assets/Ashraful_Islam_CV_Updated.pdf">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>

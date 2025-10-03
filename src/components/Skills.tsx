@@ -12,7 +12,7 @@ const skills = [
   {
     icon: Database,
     title: "Backend Development",
-    description: "Node.js, Express, PostgreSQL, MongoDB",
+    description: "C# .NET Core, ASP.NET MVC, Entity Framework, MS SQL Server",
   },
   {
     icon: Palette,

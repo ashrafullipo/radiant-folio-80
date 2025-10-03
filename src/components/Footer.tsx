@@ -34,7 +34,7 @@ const Footer = () => {
 
           <div className="text-center space-y-2">
             <p className="text-muted-foreground flex items-center gap-2 justify-center">
-              Made with <Heart className="h-4 w-4 text-accent fill-accent" /> by Your Name
+              Made with <Heart className="h-4 w-4 text-accent fill-accent" /> by Lipo
             </p>
             <p className="text-sm text-muted-foreground">
               © {currentYear} All rights reserved

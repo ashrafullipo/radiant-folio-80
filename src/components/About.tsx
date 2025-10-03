@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import profileImg from "@/assets/profile.jpg";
+import LIpo from "../assets/IMG_Lipo.jpg"
 
 const About = () => {
   const ref = useRef(null);
@@ -30,7 +31,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute inset-0 gradient-bg rounded-3xl blur-3xl opacity-30" />
                 <img
-                  src={profileImg}
+                  src={LIpo}
                   alt="Profile"
                   className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto glass border-2 border-primary/20"
                 />
@@ -47,10 +48,10 @@ const About = () => {
                 Passionate about creating amazing digital experiences
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm a full-stack developer with a passion for building beautiful, functional, and user-friendly applications. With expertise in modern web technologies, I bring ideas to life through clean code and innovative solutions.
+                I am a passionate C# .NET Core MVC Developer** who enjoys solving problems and building clean, efficient backend systems. Along with my backend expertise in HTML, React, JavaScript, and Tailwind CSS, I also focus on creating SEO-friendly systems** and can collaborate smoothly with SEO teams to handle technical challenges. 
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+                My goal is to grow as a backend developer, contribute to impactful projects, and deliver solutions that add real value to the organization.
               </p>
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="glass p-4 rounded-xl">
