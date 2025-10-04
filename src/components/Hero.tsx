@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+import CV from "../assets/Ashraful_Islam_CV_Updated.pdf"
 
 const Hero = () => {
   return (
@@ -64,7 +65,7 @@ const Hero = () => {
               className="glass border-primary/20 hover:bg-primary/10"
               asChild
             >
-              <a href="/src/assets/Ashraful_Islam_CV_Updated.pdf">
+              <a href={CV} download>
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>
