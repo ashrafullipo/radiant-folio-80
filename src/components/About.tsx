@@ -47,18 +47,18 @@ const About = () => {
                 Passionate about creating amazing digital experiences
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I am a passionate C# .NET Core MVC Developer** who enjoys solving problems and building clean, efficient backend systems. Along with my backend expertise in HTML, React, JavaScript, and Tailwind CSS, I also focus on creating SEO-friendly systems** and can collaborate smoothly with SEO teams to handle technical challenges. 
+                I am a passionate C# .NET Core MVC Developer who enjoys solving problems and building clean, efficient backend systems. Along with my backend expertise in HTML, React, JavaScript, and Tailwind CSS, I also focus on creating SEO-friendly systems** and can collaborate smoothly with SEO teams to handle technical challenges. 
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 My goal is to grow as a backend developer, contribute to impactful projects, and deliver solutions that add real value to the organization.
               </p>
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="glass p-4 rounded-xl">
-                  <div className="text-3xl font-bold gradient-text">5+</div>
+                  <div className="text-3xl font-bold gradient-text">1+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="glass p-4 rounded-xl">
-                  <div className="text-3xl font-bold gradient-text">50+</div>
+                  <div className="text-3xl font-bold gradient-text">5+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </div>
                 <div className="glass p-4 rounded-xl">
