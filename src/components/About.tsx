@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import profileImg from "@/assets/profile.jpg";
 import LIpo from "../assets/IMG_Lipo.jpg"
 
 const About = () => {
