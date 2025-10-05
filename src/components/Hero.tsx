@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
-import CV from "../assets/Ashraful_Islam_CV_Updated.pdf"
+import CV from "../assets/Ashraful_Islam_CV_Updated.pdf";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -29,7 +30,18 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
-              Hi, I'm <span className="gradient-text">Lipo</span>
+              Hi, I'm{" "}
+              <span className="gradient-text">
+                <Typewriter
+                  words={["Ashraful", "a Developer", "a Learner"]}
+                  loop={true}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={120}
+                  deleteSpeed={80}
+                  delaySpeed={1500}
+                />
+              </span>
             </h1>
           </motion.div>
 
@@ -39,8 +51,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            A creative developer crafting beautiful digital experiences with
-            modern web technologies
+            I code with creativity, design with logic, and deliver solutions that make an impact.
           </motion.p>
 
           <motion.div
@@ -74,7 +85,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Floating Elements */}
+      {/* Floating Scroll Indicator */}
       <motion.div
         animate={{ y: [0, -20, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
